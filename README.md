@@ -19,11 +19,8 @@
 1. `back-end` could have used Express Router to manage routes.
 2. `back-end` can use passport / OAUTH 2.0 / JWT to check validity of user sessions.
 3. `back-end` can use Swagger or other API documentation tools to expose the API functionality.
-4. `front-end` app can used a full fledged form validation library like Formik.
+4. `front-end` app can be used as a full fledged form validation library like Formik.
 5. Story book for `front-end` components that can be used as design system as well.
 6. Docker images could have been created for both `back-end` and `front-end`
 7. `back-end` Server side rendering of React App for better SEO
 
-## Self TODO before submission
-
-1. Update README.md (both `back-end` and `front-end`)
