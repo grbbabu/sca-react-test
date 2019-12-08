@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no input to the form 1`] = `
+<form
+  className={null}
+>
+  <label
+    htmlFor="first"
+  >
+    First Name
+    <input
+      id="first"
+      name="first"
+      type="text"
+    />
+  </label>
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

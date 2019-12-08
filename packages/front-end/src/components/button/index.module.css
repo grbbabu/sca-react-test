@@ -1,0 +1,20 @@
+.button {
+    padding: 8px 16px;
+    background-color: #656d73;
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 20px;
+        min-width: 100%;
+        height: 50px;
+    }
+}
+
+@media (min-width: 769px) {
+    .button {
+        font-size: 24px;
+        min-width: 200px;
+        height: 60px;
+    }
+}

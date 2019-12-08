@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no input to the form 1`] = `
+<div
+  className={null}
+>
+  <h1>
+    Subscribe
+  </h1>
+</div>
+`;

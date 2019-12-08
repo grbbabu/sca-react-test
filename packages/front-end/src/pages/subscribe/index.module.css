@@ -1,0 +1,99 @@
+.header {
+    background-color: #2e3237;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.formBody {
+    background-color: #1d2024;
+    color: white;
+}
+
+.successView,
+.failureView,
+.loadingView {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .formBody {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .inputSpacing {
+        padding-top: 16px;
+        padding-bottom: 24px;
+        width: 100%;
+    }
+
+    .inputSpacing > label {
+        font-size: 16px;
+    }
+
+    .inputSpacing > label > input {
+        margin-top: 12px;
+        border-radius: 0px;
+        height: 50px;
+    }
+
+    .successView,
+    .failureView,
+    .loadingView {
+        padding-top: 150px;
+    }
+
+    .successView h2,
+    .failureView h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .wrapper {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+    .formBody {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .inputSpacing {
+        padding-top: 32px;
+        padding-bottom: 40px;
+        flex-basis: 50%;
+    }
+
+    .inputSpacing > label {
+        font-size: 24px;
+    }
+
+    .inputSpacing > label > input {
+        margin-top: 12px;
+        border-radius: 0px;
+        height: 60px;
+    }
+
+    .inputSpacing:nth-of-type(2n) {
+        padding-left: 40px;
+    }
+
+    .successView,
+    .failureView,
+    .loadingView {
+        padding-top: 400px;
+    }
+
+    .successView h2,
+    .failureView h2 {
+        font-size: 32px;
+    }
+}

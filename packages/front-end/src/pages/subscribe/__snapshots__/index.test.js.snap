@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no input to the form 1`] = `
+<div>
+  <div
+    className="wrapper header"
+  >
+    <h1>
+      Subscribe
+    </h1>
+  </div>
+  <form
+    className="wrapper formBody"
+  >
+    <div
+      className="inputSpacing"
+    >
+      <label
+        htmlFor="firstName"
+      >
+        First Name
+        <span
+          className="required"
+        >
+           *
+        </span>
+        <input
+          id="firstName"
+          name="firstName"
+          onChange={[Function]}
+          required={true}
+          rest={Object {}}
+          type="text"
+          value=""
+        />
+      </label>
+    </div>
+    <div
+      className="inputSpacing"
+    >
+      <label
+        htmlFor="lastName"
+      >
+        Last Name
+        <span
+          className="required"
+        >
+           *
+        </span>
+        <input
+          id="lastName"
+          name="lastName"
+          onChange={[Function]}
+          required={true}
+          rest={Object {}}
+          type="text"
+          value=""
+        />
+      </label>
+    </div>
+    <div
+      className="inputSpacing"
+    >
+      <label
+        htmlFor="email"
+      >
+        Email
+        <span
+          className="required"
+        >
+           *
+        </span>
+        <input
+          id="email"
+          name="email"
+          onChange={[Function]}
+          required={true}
+          rest={Object {}}
+          type="email"
+          value=""
+        />
+      </label>
+    </div>
+    <div
+      className="inputSpacing"
+    >
+      <label
+        htmlFor="mobilePhone"
+      >
+        Mobile Phone
+        <input
+          id="mobilePhone"
+          name="mobilePhone"
+          onChange={[Function]}
+          required={false}
+          rest={Object {}}
+          type="tel"
+          value=""
+        />
+      </label>
+    </div>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

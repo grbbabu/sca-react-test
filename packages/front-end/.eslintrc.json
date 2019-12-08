@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "process": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "prettier", "jest"],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-filename-extension": [
+            "error",
+            { "extensions": [".js", ".jsx"] }
+        ],
+        "react/jsx-indent-props": ["error", 4],
+        "func-names": "off",
+        "react/button-has-type": "off",
+        "react/jsx-props-no-spreading": "off"
+    },
+    "ignorePatterns": ["node_modules/", "build/"]
+}

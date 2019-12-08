@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no input to the form 1`] = `
+<div
+  className={null}
+>
+  <label
+    htmlFor="firstName"
+  >
+    First Name
+    <input
+      id="firstName"
+      name="firstName"
+      onChange={[Function]}
+      required={false}
+      rest={Object {}}
+      type="text"
+      value="firstName"
+    />
+  </label>
+</div>
+`;

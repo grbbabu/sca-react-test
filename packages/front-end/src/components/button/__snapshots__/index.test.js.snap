@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no input to the form 1`] = `
+<button
+  className="button"
+  disabled={false}
+  onClick={null}
+  type="button"
+>
+  Submit
+</button>
+`;
